@@ -67,6 +67,7 @@ header>div#logo>a>span{
 #about{
 	float: left;
 	width: 30%;
+	text-shadow: black 0 0 5px;
 }
 #reg{
 	float:right;
@@ -83,6 +84,7 @@ header>div#logo>a>span{
 #about>a:hover{
 	color:black;
 	border-bottom: 1px solid black;
+	text-shadow: white 0px 2px 0px;
 }
 #about>a:last-child{
 	margin-left: 10%;
