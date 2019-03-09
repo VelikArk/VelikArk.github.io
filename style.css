@@ -10,7 +10,7 @@ font-family: 'Didact Gothic', sans-serif;
 html{
 	font-family: Neucha,Didact Gothic;
 }
-body{
+body,html{
 	width: 100%;
 	height: 100%;
 }
@@ -100,16 +100,35 @@ header>div#logo>a>span{
 	margin-top: 9px;
 }
 #reg>a>div#btn{
-float:right;
-margin-right:10%;
-margin-top: 5px;
-border-radius: 5px;
-padding: 5px 10px;
-font-size: 1.2em;
-background-color:black;
-text-shadow: silver 0px 0px 5px;
-border-bottom: 4px solid #404040FF;
-font-family:Didact Gothic ;
+	float:right;
+	margin-right:10%;
+	margin-top: 5px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 1.2em;
+	background-color:black;
+	text-shadow: silver 0px 0px 5px;
+	border-bottom: 4px solid #404040FF;
+	font-family:Didact Gothic ;
+}
+
+/*Конец стилей для шапки*/
+
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+#content{
+	flex:1 0 auto;
+}
+footer {
+	float: left;
+	background-color:#C0C0C0FF ;
+	width: 99.4%;
+	padding: 0.3%
+	color:white;
+	border-top:  5px solid #000000FF;
 }
 
 
