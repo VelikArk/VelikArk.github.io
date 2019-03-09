@@ -82,8 +82,10 @@ header>div#logo>a>span{
 	color:white;
 }
 #about>a:hover{
-	color:black;
-	border-bottom: 1px solid black;
+	color:silver;
+	border-radius: 20px;
+	border: 5px solid black;
+	background-color: black;
 	text-shadow: white 0px 2px 0px;
 }
 #about>a:last-child{
