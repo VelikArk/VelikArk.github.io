@@ -20,7 +20,7 @@ a{
 	transition: all.6s ease;
 }
 a:hover{
-	color:#000000FF;
+	color:white;
 	text-decoration: none;
 	transition: all.6s ease;
 }
@@ -82,31 +82,29 @@ header>div#logo>a>span{
 }
 #about>a:hover{
 	color:black;
-	border-bottom: 1px solid orange;
+	border-bottom: 1px solid black;
 }
 #about>a:last-child{
 	margin-left: 10%;
 }
 #reg>a:hover>div#btn{
-	border-bottom: 2px solid #B70018FF;
+	border-bottom: 2px solid #404040FF;
 	margin-top: 7px;
 }
 #reg>a:active>div#btn{
-	border-bottom: 0px solid #B70018FF;
+	border-bottom: 0px solid #404040FF;
 	margin-top: 9px;
 }
-
-
 #reg>a>div#btn{
 float:right;
-margin-right: 10%;
+margin-right:10%;
 margin-top: 5px;
 border-radius: 5px;
-padding: 5px 9px;
+padding: 5px 10px;
 font-size: 1.2em;
-background-color:red;
-text-shadow: black 0px 0px 5px;
-border-bottom: 4px solid #B70018FF;
+background-color:black;
+text-shadow: silver 0px 0px 5px;
+border-bottom: 4px solid #404040FF;
 font-family:Didact Gothic ;
 }
 
