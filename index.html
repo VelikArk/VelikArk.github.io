@@ -5,6 +5,7 @@
 	<title>Курсач</title>
 	<link rel="shortcut icon" type="image.png" href="logo16x16.png">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<meta name="description" content="Курсач,программист,шарага,техникум">
 	<meta name="keywords" content="Курсач,программист,шарага,техникум">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,14 +37,41 @@
 						</a>
 					</div>
 				</header>
+				<nav>
+					<a href="">Новости</a>
+					<a href="">Справка</a>
+					<a href="">Настройки</a>					
+				</nav>
 			</div>
 		<footer>
 			<div id="site_name">
-				<span>VelArk</span>
+				<span>VelArk</span>- мой первый сайтик !)
 			</div>
+			<div id="clear"></div>
+			
+			<div id="social">
+				<a href="https://vk.com/podzoorych">
+					<i class="fab fa-vk"></i><span>Аркадий Великородный</span>
+				</a>
+			</div> 
+			<div id="rights">
+				<a href="">Все права защищены &copy;2019</a>
+			</div>
+			<div>
+			
+			</div>
+
 		</footer>
 	</div>
-	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	$(document).scroll (function(){
+		if ($(document).scrollTop () > $('header').height () + 10)
+			$('nav').addClass ('fixed')
+		else
+			$('nav').remove ('fixed')
+	})
+</script>	
 <script>
 document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>
