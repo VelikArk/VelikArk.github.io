@@ -1,13 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>JSFiddle</title>
-  </head>
-  <body>
-    <canvas id="canvas" style="background:#FFFFFF"></canvas>
-    <script type="text/javascript">
-    	    (function(elid, width, height, speed, strength){
+    (function(elid, width, height, speed, strength){
         var canvas = document.querySelector(elid),
                 ctx = canvas.getContext("2d"),
                 pos = 0, blocks = [];
@@ -35,8 +26,4 @@
         document.addEventListener('mousemove', function (e) {
              pos = (e.pageX > 0) ? ((e.pageX < width) ? e.pageX : width-10) : 0;
         }, false);
-    })("#canvas",1000,500,25,0.05);
-    </script>
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-  </body>
-</html>
+    })("#canvas",400,300,33,0.05);
