@@ -9,6 +9,7 @@ canvas{
   border-top:  solid 2px black;
   border-left:  solid 2px black;
   border-bottom:  solid 2px black;
+  box-shadow: 0px 0px 50px white;
 }
 body{
   background-image: url(https://i1.wp.com/awdee.ru/wp-content/uploads/2017/08/walkers.gif?ssl=1);
