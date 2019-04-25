@@ -4,7 +4,7 @@ html,body{
   padding: 0;
 }
 canvas{
-  margin-top: 8%;
+  margin-top: 1%;
   border-right: solid 2px black;
   border-top:  solid 2px black;
   border-left:  solid 2px black;
@@ -26,4 +26,37 @@ body{
   border-radius: 50px;
   background-color: #FFFFFF4A;
   font-family: Russo One;
+}
+button{
+  background-size: 100%;
+  padding-left: 200px;
+  padding-right: 150px;
+  font-size: 3em;
+  font-weight: bold; 
+  font-family: Russo One;
+  background-color: #FFFFFF79;
+  border: 0px;
+  transition: all.6s ease;
+  background-color: #00FF263F;
+  color:white;
+  text-shadow: 2px 2px 2px black;
+}
+button:hover{
+  background-color: #00FF26FF;
+  color: black;
+  text-shadow: 2px 2px 2px white;
+}
+#score{
+  background-color: white;
+  font-family: Russo One;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+#spanscore{
+  background-color: white;
+  font-size: 3em;
+  font-family: Russo One;
+  font-weight: bold;
+  box-shadow: 5px 0px 0px white;
 }
