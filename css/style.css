@@ -61,3 +61,77 @@ button:hover{
   font-weight: bold;
   box-shadow: 5px 0px 0px white;
 }
+#VA{
+  background-color: white;
+}
+#к{
+  background-color: white;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#у{
+  background-color: black;
+  color: white;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#р{
+  background-color: red;
+  color: yellow;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#с{
+  background-color: orange;
+  color: red;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#а{
+  background-color: green;
+  color: purple;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#ч{
+  background-color: silver;
+  color: olive;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#в{
+  background-color: #00FFD6FF;
+  color: #588D8AFF;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#точка{
+  background-color: black;
+  color: white;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#д{
+  background-color: #B522DCFF;
+  color: #AF89FAFF;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#и{
+  background-color:#0057FFFF;
+  color: #FF4600FF;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#я{
+  background-color: #F500FFFF;
+  color: yellow;
+  font-family: Russo One;
+  font-size: 2em;
+}
+#Воскл{
+  background-color: white;
+  font-family: Russo One;
+  font-size: 2em;
+}
+
